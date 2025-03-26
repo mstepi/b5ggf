@@ -1,6 +1,6 @@
 ---
 title: Color
-parent: Utilities
+parent: 問題集
 ---
 
 # Color Utilities

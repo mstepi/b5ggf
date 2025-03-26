@@ -1,6 +1,6 @@
 ---
 title: Typography
-parent: Utilities
+parent: 問題集
 ---
 
 # Typography Utilities

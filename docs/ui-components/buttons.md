@@ -1,13 +1,13 @@
 ---
-title: Buttons
+title: 虚偽表示
 parent: 権利関係
-nav_order: 2
+nav_order: 3
 ---
 
-# Buttons
+# 虚偽表示
 {: .no_toc }
 
-## Table of contents
+## contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -15,82 +15,54 @@ nav_order: 2
 
 ---
 
-## Basic button styles
+## 虚偽表示とは
+虚偽表示とは、相手と口裏をあせて、売買したことにすること
 
-### Links that look like buttons
+<img src="{{ site.baseurl }}/assets/images/image_202503263.png" width="400" alt="説明">
 
-<div class="code-example" markdown="1">
-[Link button](https://just-the-docs.com){: .btn }
 
-[Link button](https://just-the-docs.com){: .btn .btn-purple }
-[Link button](https://just-the-docs.com){: .btn .btn-blue }
-[Link button](https://just-the-docs.com){: .btn .btn-green }
+1. Aさんは借金から逃げるために、土地を売るつもりはないのに売ったことにしようとしている
+2. Bさんは買うつもりはないのに、Aさんから土地を買ったフリをして自分の名義にしようとしている
 
-[Link button](https://just-the-docs.com){: .btn .btn-outline }
-</div>
-```markdown
-[Link button](https://just-the-docs.com){: .btn }
+上記の場合、AさんもBさんも売買の意思がないので、この契約は<span style="color:rgb(248, 105, 105);">無効</span>となる
 
-[Link button](https://just-the-docs.com){: .btn .btn-purple }
-[Link button](https://just-the-docs.com){: .btn .btn-blue }
-[Link button](https://just-the-docs.com){: .btn .btn-green }
 
-[Link button](https://just-the-docs.com){: .btn .btn-outline }
-```
+{: .important-title }
+> もう少し説明すると・・・
+>
+> 「ウソの契約だから、最初からなかったことにします！」というのが 「無効」 です。<br>
+> つまり、Aさんは「やっぱりBさんに家を売ってないよ！」と言えます。
 
-### Button element
 
-GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this:
 
-<div class="code-example">
-<button type="button" name="button" class="btn">Button element</button>
-</div>
-```html
-<button type="button" name="button" class="btn">Button element</button>
-```
 
----
 
-## Using utilities with buttons
+## Bさんが第三者に土地を売ってしまった場合
 
-### Button size
+上記で仮装譲渡され、Bさん名義になった土地を第三者Cに売ってしまった場合
 
-Wrap the button in a container that uses the [font-size utility classes]({% link docs/utilities/typography.md %}) to scale buttons:
+1. Aは借金から逃げるために嘘をついたので、可哀想ではない
+2. BもAを裏切ってCに売ってしまったので、可哀想ではない
 
-<div class="code-example" markdown="1">
-<span class="fs-6">
-[Big ass button](https://just-the-docs.com){: .btn }
-</span>
 
-<span class="fs-3">
-[Tiny ass button](https://just-the-docs.com){: .btn }
-</span>
-</div>
-```markdown
-<span class="fs-8">
-[Link button](https://just-the-docs.com){: .btn }
-</span>
+何も知らずに巻き込まれたCは可哀想なので、Cを守るために<br><span style="color:rgb(248, 105, 105);">虚偽表示の無効は善意の第三者には抵抗できない</span>こととする<br>
 
-<span class="fs-3">
-[Tiny ass button](https://just-the-docs.com){: .btn }
-</span>
-```
+> 状況説明<br>
+> Cさん（まったく関係ない人）が、「Bさんが持っている家なら、買いたい！」と言って、その家を買いました。<br>
+> Cさんは「AさんとBさんがウソの契約をしていた」ことを 知らない（これが「善意」 ）<br>
+> Aさんは「ウソの契約だったから、家はBさんのものじゃない！ Cさんに売られたのは無効だ！」と言いたい。<br>
+> でも、法律では「何も知らずに信じたCさんを守る」ので、AさんはCさんに「家を返せ！」とは言えません。<br>
+> つまり、Aさんの「ウソの契約は無効！」という主張は、Cさんには通じないのです。
 
-### Spacing between buttons
 
-Use the [margin utility classes]({% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
+<span style="background-color:#ffe6e7">※この場合の第三者Cは善意でありさえばよく、<br>
+過失があっても登記を備えていなくても、善意でありさえすれば保護されます。</span>
 
-<div class="code-example" markdown="1">
-[Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
 
-[Button with more space](https://just-the-docs.com){: .btn .btn-green .mr-4 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
-</div>
-```markdown
-[Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
+> 例えばCがBとグルになってAを騙していた場合（悪意）、Cは第三者として保護されません。<br>
+> Cが「ちゃんと調べればAとBの契約が怪しいとわかったのに、確認しなかった」(過失の)場合でも、 「善意」なら守られる 
 
-[Button with more space](https://just-the-docs.com){: .btn .btn-green .mr-4 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
-```
+## 転売した場合
+善意のCが現れた後に、悪意のDが登場しても、Dは保護されます。
+
+→言い換えると、Cが善意なら、Cが買った時点でAは無効を主張できなくなる。ということ

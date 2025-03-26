@@ -1,6 +1,6 @@
 ---
 title: Layout
-parent: Utilities
+parent: 問題集
 ---
 
 # Layout Utilities

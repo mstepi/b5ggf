@@ -1,6 +1,6 @@
 ---
 title: Responsive Modifiers
-parent: Utilities
+parent: 問題集
 ---
 
 # Responsive modifiers
