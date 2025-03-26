@@ -1,12 +1,11 @@
 ---
-title: Configuration
+title: 言葉について
 nav_order: 2
 ---
 
-# Configuration
+# せつめい
 {: .no_toc }
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+頑張るぞ
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -19,21 +18,15 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
 
-## Site logo
+## 善意
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+事情を知らないことを善意という
 
-## Site favicon
 
-```yaml
-# Set a path/url to a favicon that will be displayed by the browser
-favicon_ico: "/assets/images/favicon.ico"
-```
+## 悪意
 
-If the path to your favicon is `/favicon.ico`, you can leave `favicon_ico` unset.
+事情の知っていることを悪意という
+
 
 ## Search
 

@@ -1,6 +1,6 @@
 ---
 title: Labels
-parent: UI Components
+parent: 権利関係
 nav_order: 3
 ---
 

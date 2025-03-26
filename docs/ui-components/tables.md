@@ -1,6 +1,6 @@
 ---
 title: Tables
-parent: UI Components
+parent: 権利関係
 nav_order: 4
 ---
 

@@ -1,160 +1,77 @@
 ---
-title: Callouts
-parent: UI Components
-nav_order: 7
+title: 詐欺・脅迫
+parent: 権利関係
+nav_order: 2
 ---
 
-# Callouts
-{: .d-inline-block }
+# 詐欺・脅迫
+{: .no_toc }
 
-New (v0.4.0)
-{: .label .label-green }
-
-Markdown does not include support for callouts. However, you can style text as a callout using a Markdown extension supported by kramdown: [*block IALs*](https://kramdown.gettalong.org/quickref.html#block-attributes).
-
-Common kinds of callouts include `highlight`, `important`, `new`, `note`, and `warning`.
-
-{: .warning }
-These callout names are *not* pre-defined by the theme: you need to define your own names.
-
-When you have [configured]({% link docs/configuration.md %}#callouts) the  `color` and (optional) `title` for a callout, you can apply it to a paragraph, or to a block quote with several paragraphs, as illustrated below.[^postfix]
-
-[^postfix]:
-    You can put the callout markup either before or after its content.
-
-## An untitled callout
+## contents
 {: .no_toc .text-delta }
 
-```markdown
-{: .highlight }
-A paragraph
-```
+1. TOC
+{:toc}
 
-{: .highlight }
-A paragraph
+---
 
+## 詐欺
+詐欺とは、騙すこと
 
-## A single paragraph callout
-{: .no_toc .text-delta }
-
-```markdown
-{: .note }
-A paragraph
-```
-
-{: .note }
-A paragraph
-
-```markdown
-{: .note-title }
-> My note title
->
-> A paragraph with a custom title callout
-```
-
-{: .note-title }
-> My note title
->
-> A paragraph with a custom title callout
-
-## A multi-paragraph callout
-{: .no_toc .text-delta }
-
-```markdown
-{: .important }
-> A paragraph
->
-> Another paragraph
->
-> The last paragraph
-```
-
-{: .important }
-> A paragraph
->
-> Another paragraph
->
-> The last paragraph
-
-```markdown
-{: .important-title }
-> My important title
->
-> A paragraph
->
-> Another paragraph
->
-> The last paragraph
-```
+<p>意思表示が合致しているので、契約は有効
+<br>しかし、有効だから契約(約束)を守れというのは、騙された側が可哀想なので
+<br>詐欺の被害にあった人は契約を<span style="color:rgb(248, 105, 105);">取り消す</span>ことができる。</p>
 
 {: .important-title }
-> My important title
+> メモ
 >
-> A paragraph
+> <span style="color:rgb(248, 105, 105);">無効</span>と<span style="color:rgb(248, 105, 105);">取り消し</span>は違う。
 >
-> Another paragraph
+> 無効とは<span style="color:rgb(248, 105, 105);">最初から</span>何もない<br>
+> 取り消しとは、取り消すまで有効だが<span style="color:rgb(248, 105, 105);">取り消しをした瞬間に</span>契約した時に遡ってなかったことになる
+
+## 脅迫
+
+脅迫とは相手を脅すこと
+
+<p>意思表示が合致しているので、契約は有効
+<br>しかし、有効だから契約(約束)を守れというのは、脅された側が可哀想なので
+<br>脅迫の被害にあった人は契約を<span style="color:rgb(248, 105, 105);">取り消す</span>ことができる。</p>
+
+## 詐欺・脅迫
+
+悪徳業者Aが詐欺や脅迫の被害者であるBから買った土地を、**何も知らない**第三者のCに売ってしまった。
+
+詐欺や脅迫の被害者も上記同様に可哀想だが、
+<br>何も知らずに買ったCも可哀想(可哀想な被害者が複数いるということ)
+
+{: .important-title }
+> この場合・・・
 >
-> The last paragraph
-
-## An indented callout
-{: .no_toc .text-delta }
-
-```markdown
-> {: .highlight }
-  A paragraph
-```
-
-> {: .highlight }
-  A paragraph
-
-## Indented multi-paragraph callouts
-{: .no_toc .text-delta }
-
-```markdown
-> {: .new }
-> > A paragraph
-> >
-> > Another paragraph
-> >
-> > The last paragraph
-```
-
-> {: .new }
-> > A paragraph
-> >
-> > Another paragraph
-> >
-> > The last paragraph
+> 騙された人(詐欺)：善意無過失の第三者に「自分のものだ」と主張ができない<br>
+> 脅された人(脅迫)：善意無過失の第三者に「自分のものだ」と主張ができる
 
 
-## Nested callouts
-{: .no_toc .text-delta }
 
-```markdown
-{: .important }
-> {: .warning }
-> A paragraph
-```
+上記を法律の世界では、
 
-{: .important }
-> {: .warning }
-> A paragraph
 
-## Opaque background
-{: .no_toc .text-delta }
+詐欺の被害者は善意無過失の第三者に取り消しを対抗できないが、
+<br>脅迫の被害者は善意無過失の第三者に取り消しを対抗できる
 
-```markdown
-{: .important }
-> {: .opaque }
-> <div markdown="block">
-> {: .warning }
-> A paragraph
-> </div>
-```
 
-{: .important }
-> {: .opaque }
-> <div markdown="block">
-> {: .warning }
-> A paragraph
-> </div>
+<img src="{{ site.baseurl }}/assets/images/image_20250326.png" width="300" alt="説明">
+<img src="{{ site.baseurl }}/assets/images/image_202503262.png" width="300" alt="説明">
+
+
+という言い方をする。
+
+
+詐欺や脅迫があったことを<span style="background-color:#ffcce5">知り</span>、または<span style="background-color:#ffcce5">知ることができた</span>のに買った場合は<span style="color:rgb(248, 105, 105);">悪意</span>や<span style="color:rgb(248, 105, 105);">有過失</span>になります。
+<br>こちらは何も可哀想でない第三者のため、脅迫、詐欺どちらでも被害者Bは取り消しを対抗できる。
+
+
+
+
+<br>脅迫の被害にあった人は契約を<span style="color:rgb(248, 105, 105);">取り消す</span>ことができる。
+
