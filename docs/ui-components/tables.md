@@ -1,28 +1,24 @@
 ---
-title: Tables
+title: 公序良俗に反する契約
 parent: 権利関係
 nav_order: 6
 ---
 
-# Tables
+# 公序良俗に反する契約
+{: .no_toc }
 
-Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport.
+## contents
+{: .no_toc .text-delta }
 
-<div class="code-example" markdown="1">
+1. TOC
+{:toc}
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+---
 
-</div>
-```markdown
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-```
+## 公序良俗に反する契約
+反社会的な契約などは守る必要がない
+<br>そのような契約は<span style="color:rgb(248, 105, 105);">最初から無効</span>
+
+## 第三者への抵抗
+公序良俗に反する契約内容を守らせるわけには行かないため、
+<br>契約の無効は善意の<span style="color:rgb(248, 105, 105);">第三者にも抵抗ができる</span>

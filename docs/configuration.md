@@ -42,3 +42,9 @@ View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/t
 「自分の気持ちや考えを伝えた人」
 
 例：お店で「アイスをください！」と言ったら → アイスをほしいと伝えた人が表意者
+
+## 制限行為能力者
+未成年者
+<br>成年被後見人
+<br>被保佐人
+<br>被補助人

@@ -1,13 +1,13 @@
 ---
-title: Lists
+title: 心裡保留
 parent: 権利関係
-nav_order: 5
+nav_order: 4
 ---
 
-# Lists
+# 心裡保留
 {: .no_toc }
 
-## Table of contents
+## contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -15,84 +15,20 @@ nav_order: 5
 
 ---
 
-Most lists can be rendered with pure Markdown.
+## 心裡保留
 
-## Unordered list
+心裡保留とは、<span style="color:rgb(248, 105, 105);">冗談</span>のこと
 
-<div class="code-example" markdown="1">
-- Item 1
-- Item 2
-- Item 3
+<img src="{{ site.baseurl }}/assets/images/image_202503271.png" width="400" alt="説明">
 
-_or_
+上記の場合・・・
+1. Bは可哀想なので契約は<span style="color:rgb(248, 105, 105);">有効</span>
 
-* Item 1
-* Item 2
-* Item 3
-</div>
-```markdown
-- Item 1
-- Item 2
-- Item 3
+2. Cは何度か嘘をつかれているので、嘘をついていると気づくことができた　→　<span style="color:rgb(248, 105, 105);">善意有過失</span>
 
-_or_
+3. Dは嘘だと知っていた　→　<span style="color:rgb(248, 105, 105);">悪意</span>
 
-* Item 1
-* Item 2
-* Item 3
-```
+2.善意有過失　3.悪意　に関しては保護をする必要がないため、無効となる。
 
-## Ordered list
 
-<div class="code-example" markdown="1">
-1. Item 1
-1. Item 2
-1. Item 3
-</div>
-```markdown
-1. Item 1
-1. Item 2
-1. Item 3
-```
-
-## Task list
-
-<div class="code-example" markdown="1">
-- [ ] hello, this is a todo item
-- [ ] hello, this is another todo item
-- [x] goodbye, this item is done
-</div>
-```markdown
-- [ ] hello, this is a todo item
-- [ ] hello, this is another todo item
-- [x] goodbye, this item is done
-```
-
-## Definition list
-
-Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler.
-
-<div class="code-example" markdown="1">
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-</div>
-```html
-<dl>
-  <dt>Name</dt>
-  <dd>Godzilla</dd>
-  <dt>Born</dt>
-  <dd>1952</dd>
-  <dt>Birthplace</dt>
-  <dd>Japan</dd>
-  <dt>Color</dt>
-  <dd>Green</dd>
-</dl>
-```
+※ただし、善意の第三者にはその無効を抵抗できない
