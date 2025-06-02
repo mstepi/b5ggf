@@ -1,9 +1,9 @@
 ---
-title: Navigation
-nav_order: 5
+title: 宅建業法
+nav_order: 4
 ---
 
-# Navigation
+# 宅建業法
 
 The default page layout supports various navigation features:
 
