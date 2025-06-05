@@ -1,20 +1,19 @@
 ---
-title: Auxiliary Links
-parent: Navigation
+title: 宅地建物取引士
+parent: 宅建業法
 nav_order: 2
 ---
 
-# Auxiliary Links
 
-You can add a list of auxiliary links to your site, shown at the top right on all pages. You do this by including the `aux_links` [configuration option]({% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+# 宅地建物取引士
+{: .no_toc }
 
-## Example Auxiliary Link
-{: .text-delta }
+## contents
+{: .no_toc .text-delta }
 
-This website has an auxiliary link: "Just the Docs on GitHub". It is rendered with the following code:
+1. TOC
+{:toc}
 
-```yaml
-aux_links:
-  Just the Docs on GitHub:
-    - https://github.com/just-the-docs/just-the-docs
-```
+---
+
+## 宅地建物取引士になるまでのステップ

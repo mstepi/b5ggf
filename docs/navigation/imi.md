@@ -1,7 +1,7 @@
 ---
 title: 宅建業の意味
 parent: 宅建業法
-nav_order: 5
+nav_order: 1
 ---
 
 # 宅建業法とは

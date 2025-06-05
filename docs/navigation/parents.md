@@ -1,11 +1,59 @@
 ---
-title: Breadcrumbs
-parent: Navigation 
+title: 重要事項説明
+parent: 宅建業法
 nav_order: 3
 ---
 
-# Breadcrumbs
 
-When using the default layout, all pages except top-level pages will automatically have a list of 'breadcrumbs' at the top, linking to the parent page and to any higher-level ancestors.
+# 重要事項説明
+{: .no_toc }
 
-The default layout does not provide an option to suppress the list of breadcrumbs. To do that, you would need to define a new layout, or override the file `_includes/components/breadcrumbs.html` (e.g., with an empty file).
+## contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## 重要事項説明とは
+
+不動産の契約では契約前に重要事項説明を義務づけている
+
+<br>重要事項説明はこれからその不動産を使う人（買主、借主、交換の両当事者）に対して行う必要がある。
+<br>この説明は宅地建物取引士でなければすることができない
+<br>※バイトでも宅建士であれば可
+
+> <span style="color:rgb(248, 105, 105);">説明の際には、相手方からの請求がなくても宅建士証を見せなければなりません</span>
+
+
+## 説明義務
+重要事項説明は<span style="color:rgb(248, 105, 105);">業者の義務</span>
+<br>宅建業者が宅地建物取引士に説明させる義務がある。
+重要事項説明は<span style="color:rgb(248, 105, 105);">どこで行っても良い</span>
+
+下記は説明義務がありません
+> 1. 自ら貸主となる宅建業者
+> 2. 買主、借主となる宅建業者
+
+
+## 重要事項説明書
+重要事項説明は書面を交付して説明をしなければならない。
+<br>この書面を重要事項説明書（35条書面）という
+
+重要事項説明書への<span style="color:rgb(248, 105, 105);">記名は宅建士</span>でなければならない(専任である必要はない)
+
+<span style="color:rgb(248, 105, 105);">相手方が宅建業者の場合、重要事項説明"は"省略できるが、書面の交付を省略することはできない</span>
+
+重要事項説明書は相手の承諾があれば、電磁的方法により提供することも認められている
+
+
+## IT重説
+重要事項の説明は、テレビ会議などのIT（ZOOMなど）を活用することができる。
+
+ただし、下記の条件を満たしている必要がある。
+> 1. 双方向でやり取りできる環境
+> 2. 重要事項説明書と添付書類を、説明を受けるものにあらかじめ交付していること
+> 3. 映像及び音声の状況について、宅地建物取引士が説明開始前に確認していること
+> 4. 相手方が、宅地建物取引士が提示した宅建士証を視認できることを確認していること
+
